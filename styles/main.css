@@ -51,7 +51,7 @@ text-align:center;
 }
 
 .hero {
-background: url('../images/hero-blur.jpg');
+background: url('../images/hero-blue.jpg');
 background-size: cover;
 box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.15);
 height: 80%;
@@ -136,4 +136,8 @@ text-align:left;
 .intro-text {
 padding-top:18%;
 }
+}
+.visible-img img {
+padding: 30px;
+background: white;
 }
