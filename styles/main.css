@@ -1,0 +1,139 @@
+.hero .button-group a {
+	color: white;
+	font-weight: 300
+}
+
+button {
+	color: rgb(255,255,255);	
+	font-weight: 300;	
+}
+
+body { 
+	font-family: 'Lato', sans-serif; 
+	font-weight: 300; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Lato', sans-serif;; 
+	font-weight: 100; 
+}
+
+.header-logo {
+	width: 250px;
+}
+
+.button {
+	font-family: 'Lato', sans-serif;; 
+	font-weight: 100; 
+	color: rgba(0,0,0);	
+}
+.button-group li {
+padding-top:3%;
+}
+
+.button-group a {
+color:rgba(0,0,0,1);
+background-color:transparent;
+}
+
+.button-group {
+float:none;
+}
+
+.namelogo {
+padding:20px 10px 0;
+}
+
+.namelogo h1 {
+font-size:1.5em;
+font-weight:100;
+text-align:center;
+}
+
+.hero {
+background: url('../titlepage/blur.jpg');
+background-size: cover;
+box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.15);
+height: 80%;
+}
+
+.intro-text {
+padding-top:20%;
+color:rgba(255,255,255,1);
+text-align:center;
+font-weight: 100;
+}
+
+.intro-text p {
+font-size:44px;
+font-weight: 100;
+}
+
+.about,.work,.contact {
+padding:50px 0 0;
+}
+
+.about img {
+width:250px;
+height:250px;
+}
+
+.work img:hover {
+opacity:0.5;
+-webkit-transition:.3s ease;
+-moz-transition:.3s ease;
+-ms-transition:.3s ease;
+-o-transition:.3s ease;
+transition:.3s ease;
+}
+
+.work li {
+height:140px;
+overflow:hidden;
+}
+
+hr {
+border:0;
+height:1px;
+background-image:0;
+opacity:0.8;
+}
+
+footer {
+padding:80px 0 10px;
+}
+
+.button-group a:hover,footer a:hover {
+color:rgba(0,0,0,0.4);
+background-color:transparent;
+}
+
+@media only screen and min-width 40063em{
+.button-group {
+float:right;
+}
+
+.namelogo {
+padding-bottom:20px;
+}
+
+.namelogo h1 {
+font-size:16px;
+text-align:left;
+}
+
+.intro-text {
+padding-top:25%;
+}
+}
+
+@media only screen and min-width 64063em{
+.namelogo h1 {
+font-size:24px;
+text-align:left;
+}
+
+.intro-text {
+padding-top:18%;
+}
+}
